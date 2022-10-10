@@ -5,10 +5,10 @@ const QuizGraph = ({data}) => {
     console.log(data);
 
     return (
-        <div className='w-3/4 m-auto'>
+        <div className='w-fit m-auto mt-5 bg-slate-100 p-16'>
             <LineChart
-            width={500}
-            height={400}
+            width={400}
+            height={300}
             data={data}
             >
           <XAxis dataKey="name" />

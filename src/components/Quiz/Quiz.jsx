@@ -10,7 +10,7 @@ const Quiz = () => {
     return (
         <div>
            <div className='bg-green-500'>
-                <h2 className='text-xl font-bold'>Welcome To <span className='text-amber-700'>{name}</span> Quiz</h2>
+                <h2 className='text-xl font-bold p-3'>Welcome To <span className='text-amber-700'>{name}</span> Quiz</h2>
            </div>
            <div>
            {

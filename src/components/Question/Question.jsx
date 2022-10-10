@@ -20,6 +20,7 @@ const Question = ({questionData}) => {
         borderRadius: '10px',
         background: '#333',
         color: '#fff',
+        fontSize: '20px'
       },
     }
   );

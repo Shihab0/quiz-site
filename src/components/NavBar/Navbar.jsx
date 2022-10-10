@@ -6,7 +6,7 @@ const Navbar = () => {
         <div className=''>
             <div className='flex justify-between bg-slate-700 text-white text-lg py-4 px-6 font-semibold'>
                <div>
-                  <h4>Test YourSelf</h4>
+                  <h4 className='text-2xl font-bold text-yellow-500'>Test YourSelf</h4>
                </div>
                <div className='flex gap-4'>
                   <Link to=''>Home</Link>

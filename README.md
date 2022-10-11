@@ -4,12 +4,12 @@
 ## Site Live Link:  [QuizSite](https://quiz-website1.netlify.app/)
 
 
-## **Feature of my site**
+## **Features of my site**
 
 - *Here you can practice many kind of programming language quiz.*
 - *You can show which quiz option is correct.*
 - *You can see all quiz statics in a graph.*
- ## **Some feature are coming**
+ ## **Some features are coming**
  - *Setup time for a quiz.*
  - *Display total marks you get.*
 

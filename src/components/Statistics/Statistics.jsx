@@ -10,7 +10,7 @@ const Statistics = () => {
 
     return (
         <div>
-            <h2 className='underline font-bold text-lg my-4'>The Graph show the number of quiz at every topic</h2>
+            <h2 className='underline font-bold text-lg my-4'>The Graph show the number of quiz on every topic</h2>
             <QuizGraph data={quizData}></QuizGraph>
         </div>
     );

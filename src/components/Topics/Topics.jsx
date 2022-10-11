@@ -7,7 +7,7 @@ const Topics = () => {
     const topics = topicsData.data;
     
     return (
-        <div className='md:flex justify-evenly bg-slate-200'>
+        <div className='md:flex justify-evenly bg-slate-200 min-h-screen'>
             {
                 topics.map(topic => <Topic
                 key={topic.id}

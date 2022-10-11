@@ -5,6 +5,7 @@ import Topics from './components/Topics/Topics';
 import Blogs from './components/Blogs/Blogs';
 import Statistics from './components/Statistics/Statistics';
 import Quiz from './components/Quiz/Quiz';
+import NotFound from './NotFound/NotFound';
 
 
 function App() {
@@ -39,9 +40,13 @@ function App() {
             return fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizID}`)
           },
           element: <Quiz></Quiz>
-        }
+        },
       ]
     }, 
+    {
+      path: '*',
+      element: <NotFound></NotFound>
+    }
   ])
 
   return (

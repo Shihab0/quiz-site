@@ -10,7 +10,7 @@ const correct = () => toast.success('Correct!! You Have Done.');
 const wrong = () => toast.error('Wrong!! Try Again.');
 
 const Question = ({questionData}) => {
-    console.log(questionData);
+    // console.log(questionData);
     
     const {id, options, question, correctAnswer} = questionData;
     const correctAns = () => toast(`${correctAnswer}`,
